@@ -40,6 +40,8 @@ class CorrectiveIteration:
     max_loading_after: float
     overloads_before: int
     overloads_after: int
+    undervolt_before: int
+    undervolt_after: int
     cost_eur: float
 
 
@@ -254,6 +256,7 @@ def run_corrective_loop(
         # apply commands
         loading_before = current_state.max_loading_pct
         overloads_before = len(current_state.overloaded_lines)
+        undervolt_before = current_state.undervolt_buses
         total_cost = 0.0
         applied: list[DispatchCommand] = []
 
@@ -284,6 +287,8 @@ def run_corrective_loop(
             max_loading_after=round(current_state.max_loading_pct, 2),
             overloads_before=overloads_before,
             overloads_after=len(current_state.overloaded_lines),
+            undervolt_before=undervolt_before,
+            undervolt_after=current_state.undervolt_buses,
             cost_eur=round(total_cost, 2),
         ))
 

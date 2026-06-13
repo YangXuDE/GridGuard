@@ -119,6 +119,14 @@ Distribution-feeder dispatch priority: **BESS discharge → curtail renewables �
 
 MIT — see [LICENSE](LICENSE) for details.
 
+## Teammates
+
+Mengyu Zhang
+Chen Zhao
+Cici
+Yang Xu
+Weiting Liang
+
 ---
 
 *Built for the E.ON Hackathon 2025 · Energy × AI Grid Operation Agents Track*

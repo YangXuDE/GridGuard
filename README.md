@@ -6,21 +6,16 @@ GridGuard is a control-room decision-support dashboard for distribution-grid ope
 
 ---
 
-## Live Demo Screenshot
+## Screenshots
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  E.ON GridGuard  ·  AI-powered Grid Security               │
-│  ─────────────────────────────────────────  N-1 Violation  │
-│                                                             │
-│  [IEEE 123-node grid viz]   [Control Deck]                 │
-│                              Select scenario ▾             │
-│                              ▶ Run Self-Healing            │
-│                                                            │
-│  Risk Screening · Action Options · Corrective Loop         │
-│  Economic Charts · Weather & Market Outlook                │
-└─────────────────────────────────────────────────────────────┘
-```
+### Dashboard — idle (grid secure)
+![GridGuard idle state](docs/screenshots/dashboard-idle.png)
+
+### N-1 Violation detected — Risk Screening results
+![GridGuard N-1 violation](docs/screenshots/dashboard-result.png)
+
+### Corrective Action Space & Operator Action Plan
+![GridGuard action space](docs/screenshots/dashboard-actions.png)
 
 ---
 
